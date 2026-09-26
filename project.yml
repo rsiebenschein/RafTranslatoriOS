@@ -1,0 +1,30 @@
+name: RafTranslator
+options:
+  bundleIdPrefix: com.rafapps
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  RafTranslator:
+    type: application
+    platform: iOS
+    sources:
+      - path: RafTranslator
+    info:
+      path: RafTranslator/Info.plist
+      properties:
+        UILaunchScreen: {}
+        CFBundleDisplayName: Raf Translator
+        NSSpeechRecognitionUsageDescription: "Raf Translator uses speech recognition to let you dictate text to translate instead of typing it."
+        NSMicrophoneUsageDescription: "Raf Translator uses the microphone to capture your voice while dictating text to translate."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rafapps.raftranslator
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
