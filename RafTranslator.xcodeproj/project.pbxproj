@@ -8,110 +8,128 @@
 
 /* Begin PBXBuildFile section */
 		17ECC348996360CA04FB9028 /* DictationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928AE36FEDF1B66C3F9B8EE5 /* DictationService.swift */; };
+		1C64E3024F20C8D08E594361 /* LanguagePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B02A31EC260B284B0AAD12 /* LanguagePickerRow.swift */; };
+		2173B720B2AA654D0F52CFA5 /* MainTranslateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A052A7D3731D59EE886BFD /* MainTranslateButton.swift */; };
 		2593D54918E7D75FDF9DB6B7 /* ThinkingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A24A5156A171AACCDB0F1 /* ThinkingConfig.swift */; };
+		25E4C4825C5F9559871CB182 /* GenericMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FE80DE4989D81ED77F9310 /* GenericMainScreen.swift */; };
 		265A1643FEDA8002745F9A31 /* TranslationUsageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B5AA3DFA86D385D983C88C /* TranslationUsageRecord.swift */; };
+		282AE20C5F758A7B41580FFE /* UsageCostCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FF89F8D79AD900A66219A /* UsageCostCalculator.swift */; };
 		2A566B96372A6125CEEBB688 /* RafTranslatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7CFF3F1A025B22322AB367 /* RafTranslatorApp.swift */; };
+		2C4C511A42CB8A1EBE10CD38 /* InstructionsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316EFFFBA211A528342E99F /* InstructionsSection.swift */; };
+		328093B76B6775A0736B7E79 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4998AD91294FAD692D1FFE /* AppTheme.swift */; };
 		32B540449AC4573868AC2E18 /* DictationService+Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D69976E2CF0FAD738EF173 /* DictationService+Recognizer.swift */; };
 		3481924B43AB4833E6EE3AB2 /* LanguageUiStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2949FF3A3930061005AAEA /* LanguageUiStrings.swift */; };
+		35C02C8362BB9C3362076B0B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CEF007D99CF89EBB88B823 /* SettingsViewModel.swift */; };
 		394EE8F516CE26CCBF46C9B6 /* GeminiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E55A10C1B0369297C8EE2B /* GeminiError.swift */; };
 		3D5FF2EC32EF2D9C75ED39A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE70C4966D1300BBDFE0BF7 /* SettingsView.swift */; };
+		4056A985B61314424166AA5D /* LanguageEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D51E1B031EABEC46CC4F8C9 /* LanguageEditorSheet.swift */; };
 		46D1AAF7C06F98EC6C63ED23 /* DictationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451E156C9B0E39094F2F295 /* DictationError.swift */; };
+		48D643F1EBDF92FA9D64CFB3 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E033CFDD2281FE5BA2B89DC /* FlowLayout.swift */; };
 		49F9572560C29AF7822DBA46 /* TranslatingStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E37F9EB56230A2EA32385C /* TranslatingStatusCard.swift */; };
+		4A23FB03B47B8D0DC2BDFAAB /* SettingsViewModel+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002448EE4D8F2C0E4CE1D400 /* SettingsViewModel+Models.swift */; };
+		4A543C7D1E13195C963505C1 /* SettingsViewModel+Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1B9C266E2ED0AA9ECF056 /* SettingsViewModel+Languages.swift */; };
+		4B7F6EDD873821EBE90A7DD6 /* AddLanguageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F81693B08A5A47304D0DFC9 /* AddLanguageSection.swift */; };
 		4DF3D594A83D7E61A7179CDF /* ApiKeyWarningBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC685ED0A51DCD05D82CCA3 /* ApiKeyWarningBanner.swift */; };
 		59EC0546BF4CF00F6D7A3108 /* DialectSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A0E4EF1F058C9EA5667637 /* DialectSeeder.swift */; };
+		603E6CA9EC0BB02A2D56DC85 /* SwissDialectMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614AC7D1FD3BD9CE3AC52B1B /* SwissDialectMainScreen.swift */; };
+		6D6FA4860FF7F39CF16F2F9A /* TargetLanguageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E77B5E7A0760E2A35E9B6BB /* TargetLanguageSection.swift */; };
+		73DE3A0B2EE6EF61A6E1989D /* LanguageDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481F1D3653D174D538E536D /* LanguageDraft.swift */; };
 		7B4C67B691DA47ABF4D55B4A /* TranslationErrorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECB7E0BF9084A0027A37F8 /* TranslationErrorCard.swift */; };
 		7BB5C4202A080851E7E26A78 /* LanguageGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = A767A3308DD2B19B486CDAEF /* LanguageGroups.swift */; };
 		7DF97A8F2BBE3D162221161F /* GeminiService+ModelFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28376AA144F4B83C22A0FC9 /* GeminiService+ModelFiltering.swift */; };
 		8490FD8A54EEF87C8A5C76E3 /* LanguageDialect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9DDCE0F7F315D04B497ED /* LanguageDialect.swift */; };
 		84F992BE656A2D0C96755235 /* SwissCantonRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60E3BF069E9A0FB50FB2CD8 /* SwissCantonRegistry.swift */; };
 		8C19C28F63484496948CB195 /* TranslateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859A885446266E7AF753B8B3 /* TranslateViewModel.swift */; };
+		904FB3C3BCBA6116CFDACA24 /* LanguagePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D3FC6E4D9560ECA0682DCF /* LanguagePickerSheet.swift */; };
 		919D03ED6F3678D59AF741A0 /* GeminiService+Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC5A7AB2AC35D75A20A8C32 /* GeminiService+Translation.swift */; };
 		93E04D1D486884C3C1DC52A2 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1725987095F7881F88AD0 /* AppSettings.swift */; };
 		9CF2E447F9DF08A30E5A3032 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D47F722DB1F94190E6B39 /* GeminiService.swift */; };
+		A080AE8124E3FDA0C7169ECC /* UsageSummarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4480BC989972F4AA8AEEDF63 /* UsageSummarySection.swift */; };
+		A2673A8D6AC4C55CA8C3C476 /* ModelSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC2E806DCCBC8A13CB614C /* ModelSection.swift */; };
 		A6E49AFCF0AD246290A6A1B1 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C5CDA25B79205E7E008BA /* KeychainStore.swift */; };
+		A9A029C68FA02BFF459FB70A /* GenericComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343741F83AB235DF8D250CCB /* GenericComponents.swift */; };
 		AB1F2A882BED9E8D4F017516 /* TranslationResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD018CB2D792D47C18A100F7 /* TranslationResultCard.swift */; };
 		AEEC1DFA3E14AC011BA57F66 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1065521377AFAE17E10DA5F /* KeychainError.swift */; };
+		B5EB96E152752BBA18DA2201 /* SwissComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3EAC5186266A0E0460A5FA /* SwissComponents.swift */; };
 		B86EF5B0EF51CDA03B4B55E8 /* CatalogSeeding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743C4121BE0C2514F5CE1564 /* CatalogSeeding.swift */; };
+		BD0A65727D333AB368C837AB /* ApiKeySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC0687CFED9F7884CBEC56 /* ApiKeySection.swift */; };
 		BD19CE72EA5B8BFC72B64763 /* TranslateViewModel+Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C43CCD8235623C8DD7CA0 /* TranslateViewModel+Copy.swift */; };
 		BDE258E00C7B5718B4663590 /* TranslateViewModel+Dictation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD078B99F4AB553959C61E /* TranslateViewModel+Dictation.swift */; };
 		CA7BB0E5C158F90F45EB667B /* MainTranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A14037EB73EAA8A312F54D /* MainTranslateView.swift */; };
 		D3976BD0149508D53E52D2A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7264C67D272CF3FE890A51 /* ContentView.swift */; };
+		D4DA16D440220A59707975A7 /* UsageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E9CF1FADDF21C43BFFE27F /* UsageRepository.swift */; };
 		DBBAB851CDF3C8ED8A70758F /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614BB88BCACD475C8C0A2536 /* PersistenceController.swift */; };
+		DF7244317DE94449671BB6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CC3E34C9421D3F2D04FD7F /* Assets.xcassets */; };
 		E53DF7E530F3CB60D64C4121 /* GeminiService+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8627AF3B7730108BBDE42E /* GeminiService+Retry.swift */; };
 		F2355541D7CA26A3F05C40B2 /* DictationService+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EF6B9B830C402B74E2F6DC /* DictationService+Audio.swift */; };
 		F268B8F4E7E62079C42E5CFA /* TranslateInputCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7548D9A54B713824CF80697 /* TranslateInputCard.swift */; };
 		FB7743825D801EC6DCB164B2 /* GeminiModelRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298EA5B15649384541222EDA /* GeminiModelRate.swift */; };
 		FBA4C3D48FA3EA4F418C3F3A /* GeminiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C906607F9890B71EDF377 /* GeminiModels.swift */; };
-		0B8B5A9F1506F537BC21D3C0 /* UsageCostCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04196DEED3CBE781B32498 /* UsageCostCalculator.swift */; };
-		3CE5F2D27911A6CFC8164136 /* UsageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD3AC6DCA0EB50B1F0B83C /* UsageRepository.swift */; };
-		0C8D2D3C69FAE4D18070119D /* LanguageDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B7665A03EA970068F9BCB1 /* LanguageDraft.swift */; };
-		426CBED13A848D53C49D6841 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109CA879EBA8616E8EA3179E /* SettingsViewModel.swift */; };
-		A813848B0BE9118EAB0AE519 /* SettingsViewModel+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9874D8C4D4F14B0D941B064 /* SettingsViewModel+Models.swift */; };
-		332C1967913B99757191DE63 /* SettingsViewModel+Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9838590677EBD57F2D23 /* SettingsViewModel+Languages.swift */; };
-		B099EAB7D43BCEC9F984789D /* LanguagePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FEF44A87320E8BF6DCED8 /* LanguagePickerRow.swift */; };
-		347A33AF76E66217A12F150F /* LanguagePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401900B7657B9FC99A566F2 /* LanguagePickerSheet.swift */; };
-		E5C9B41F536432CA89563DCA /* LanguageEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6216CC6244FA58243B78BFE /* LanguageEditorSheet.swift */; };
-		9FF6431C46A0B218F7C98D73 /* TargetLanguageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F90F95140F459B3C6CADC /* TargetLanguageSection.swift */; };
-		BC45AC3B344B222F39909BE2 /* AddLanguageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A39E5A81FF662645D19DE7 /* AddLanguageSection.swift */; };
-		7801D0D3E43FFCB5EEF46772 /* UsageSummarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEC39047EC375458C882E6E /* UsageSummarySection.swift */; };
-		0DC0B6519D66580FCAC5DFC9 /* ApiKeySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4AD8638B9BD8259B993679 /* ApiKeySection.swift */; };
-		FAF2EE686758006AA9AEEB9A /* ModelSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30EF1BDA8BEF2D517686DC8 /* ModelSection.swift */; };
-		3237B92FDEC6B34E8813F325 /* InstructionsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EC2B34EA0E05C8FA2EABC4 /* InstructionsSection.swift */; };
+		FD8CD75DB23D025B5B3A6964 /* FlagIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50DD3A475DB418106C0680 /* FlagIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002448EE4D8F2C0E4CE1D400 /* SettingsViewModel+Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewModel+Models.swift"; sourceTree = "<group>"; };
 		048F127467BCA74235B2D426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		07A14037EB73EAA8A312F54D /* MainTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTranslateView.swift; sourceTree = "<group>"; };
+		0D51E1B031EABEC46CC4F8C9 /* LanguageEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageEditorSheet.swift; sourceTree = "<group>"; };
 		19E37F9EB56230A2EA32385C /* TranslatingStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatingStatusCard.swift; sourceTree = "<group>"; };
 		1DC5A7AB2AC35D75A20A8C32 /* GeminiService+Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeminiService+Translation.swift"; sourceTree = "<group>"; };
 		298EA5B15649384541222EDA /* GeminiModelRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiModelRate.swift; sourceTree = "<group>"; };
 		2F8627AF3B7730108BBDE42E /* GeminiService+Retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeminiService+Retry.swift"; sourceTree = "<group>"; };
+		31FE80DE4989D81ED77F9310 /* GenericMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericMainScreen.swift; sourceTree = "<group>"; };
+		343741F83AB235DF8D250CCB /* GenericComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericComponents.swift; sourceTree = "<group>"; };
+		3E033CFDD2281FE5BA2B89DC /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		407A24A5156A171AACCDB0F1 /* ThinkingConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingConfig.swift; sourceTree = "<group>"; };
+		428FF89F8D79AD900A66219A /* UsageCostCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCostCalculator.swift; sourceTree = "<group>"; };
+		4480BC989972F4AA8AEEDF63 /* UsageSummarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageSummarySection.swift; sourceTree = "<group>"; };
+		46A052A7D3731D59EE886BFD /* MainTranslateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTranslateButton.swift; sourceTree = "<group>"; };
 		46EF6B9B830C402B74E2F6DC /* DictationService+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DictationService+Audio.swift"; sourceTree = "<group>"; };
+		4B4998AD91294FAD692D1FFE /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		4B50DD3A475DB418106C0680 /* FlagIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagIcon.swift; sourceTree = "<group>"; };
+		5E77B5E7A0760E2A35E9B6BB /* TargetLanguageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetLanguageSection.swift; sourceTree = "<group>"; };
+		5F81693B08A5A47304D0DFC9 /* AddLanguageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLanguageSection.swift; sourceTree = "<group>"; };
+		614AC7D1FD3BD9CE3AC52B1B /* SwissDialectMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissDialectMainScreen.swift; sourceTree = "<group>"; };
 		614BB88BCACD475C8C0A2536 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		662C5CDA25B79205E7E008BA /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
 		672C906607F9890B71EDF377 /* GeminiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiModels.swift; sourceTree = "<group>"; };
 		68D69976E2CF0FAD738EF173 /* DictationService+Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DictationService+Recognizer.swift"; sourceTree = "<group>"; };
+		6F3EAC5186266A0E0460A5FA /* SwissComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissComponents.swift; sourceTree = "<group>"; };
 		743C4121BE0C2514F5CE1564 /* CatalogSeeding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogSeeding.swift; sourceTree = "<group>"; };
 		7A61EB80A8126FB43AD1D93B /* RafTranslator.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RafTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9C43CCD8235623C8DD7CA0 /* TranslateViewModel+Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TranslateViewModel+Copy.swift"; sourceTree = "<group>"; };
 		7EF9DDCE0F7F315D04B497ED /* LanguageDialect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDialect.swift; sourceTree = "<group>"; };
 		8451E156C9B0E39094F2F295 /* DictationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationError.swift; sourceTree = "<group>"; };
+		8481F1D3653D174D538E536D /* LanguageDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDraft.swift; sourceTree = "<group>"; };
 		859A885446266E7AF753B8B3 /* TranslateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewModel.swift; sourceTree = "<group>"; };
+		88FC0687CFED9F7884CBEC56 /* ApiKeySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeySection.swift; sourceTree = "<group>"; };
 		8A2949FF3A3930061005AAEA /* LanguageUiStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageUiStrings.swift; sourceTree = "<group>"; };
 		8AE70C4966D1300BBDFE0BF7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		928AE36FEDF1B66C3F9B8EE5 /* DictationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationService.swift; sourceTree = "<group>"; };
+		96E9CF1FADDF21C43BFFE27F /* UsageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageRepository.swift; sourceTree = "<group>"; };
 		9E7CFF3F1A025B22322AB367 /* RafTranslatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RafTranslatorApp.swift; sourceTree = "<group>"; };
+		A0CC3E34C9421D3F2D04FD7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A767A3308DD2B19B486CDAEF /* LanguageGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageGroups.swift; sourceTree = "<group>"; };
 		B1065521377AFAE17E10DA5F /* KeychainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainError.swift; sourceTree = "<group>"; };
 		BCECB7E0BF9084A0027A37F8 /* TranslationErrorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationErrorCard.swift; sourceTree = "<group>"; };
 		BD018CB2D792D47C18A100F7 /* TranslationResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResultCard.swift; sourceTree = "<group>"; };
 		C1B5AA3DFA86D385D983C88C /* TranslationUsageRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationUsageRecord.swift; sourceTree = "<group>"; };
 		C28376AA144F4B83C22A0FC9 /* GeminiService+ModelFiltering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeminiService+ModelFiltering.swift"; sourceTree = "<group>"; };
+		C316EFFFBA211A528342E99F /* InstructionsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsSection.swift; sourceTree = "<group>"; };
 		C33D47F722DB1F94190E6B39 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		C7D3FC6E4D9560ECA0682DCF /* LanguagePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerSheet.swift; sourceTree = "<group>"; };
 		C8A0E4EF1F058C9EA5667637 /* DialectSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialectSeeder.swift; sourceTree = "<group>"; };
 		CCF1725987095F7881F88AD0 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		CEC685ED0A51DCD05D82CCA3 /* ApiKeyWarningBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeyWarningBanner.swift; sourceTree = "<group>"; };
 		CECD078B99F4AB553959C61E /* TranslateViewModel+Dictation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TranslateViewModel+Dictation.swift"; sourceTree = "<group>"; };
 		D7548D9A54B713824CF80697 /* TranslateInputCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateInputCard.swift; sourceTree = "<group>"; };
+		E4CEF007D99CF89EBB88B823 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		E5B02A31EC260B284B0AAD12 /* LanguagePickerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerRow.swift; sourceTree = "<group>"; };
 		E60E3BF069E9A0FB50FB2CD8 /* SwissCantonRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissCantonRegistry.swift; sourceTree = "<group>"; };
+		E9CC2E806DCCBC8A13CB614C /* ModelSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSection.swift; sourceTree = "<group>"; };
 		F0E55A10C1B0369297C8EE2B /* GeminiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiError.swift; sourceTree = "<group>"; };
 		FD7264C67D272CF3FE890A51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AE04196DEED3CBE781B32498 /* UsageCostCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageCostCalculator.swift; sourceTree = "<group>"; };
-		08AD3AC6DCA0EB50B1F0B83C /* UsageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageRepository.swift; sourceTree = "<group>"; };
-		B1B7665A03EA970068F9BCB1 /* LanguageDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDraft.swift; sourceTree = "<group>"; };
-		109CA879EBA8616E8EA3179E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		F9874D8C4D4F14B0D941B064 /* SettingsViewModel+Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewModel+Models.swift"; sourceTree = "<group>"; };
-		403F9838590677EBD57F2D23 /* SettingsViewModel+Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewModel+Languages.swift"; sourceTree = "<group>"; };
-		7C3FEF44A87320E8BF6DCED8 /* LanguagePickerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerRow.swift; sourceTree = "<group>"; };
-		C401900B7657B9FC99A566F2 /* LanguagePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerSheet.swift; sourceTree = "<group>"; };
-		F6216CC6244FA58243B78BFE /* LanguageEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageEditorSheet.swift; sourceTree = "<group>"; };
-		6D3F90F95140F459B3C6CADC /* TargetLanguageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetLanguageSection.swift; sourceTree = "<group>"; };
-		84A39E5A81FF662645D19DE7 /* AddLanguageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLanguageSection.swift; sourceTree = "<group>"; };
-		EEEC39047EC375458C882E6E /* UsageSummarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageSummarySection.swift; sourceTree = "<group>"; };
-		3E4AD8638B9BD8259B993679 /* ApiKeySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeySection.swift; sourceTree = "<group>"; };
-		B30EF1BDA8BEF2D517686DC8 /* ModelSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSection.swift; sourceTree = "<group>"; };
-		25EC2B34EA0E05C8FA2EABC4 /* InstructionsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsSection.swift; sourceTree = "<group>"; };
+		FEE1B9C266E2ED0AA9ECF056 /* SettingsViewModel+Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewModel+Languages.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -121,6 +139,22 @@
 				7A61EB80A8126FB43AD1D93B /* RafTranslator.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		14B5C9D5129E26351411CAAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0CC3E34C9421D3F2D04FD7F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2162498081F0177AF37B4E7C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				4B4998AD91294FAD692D1FFE /* AppTheme.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 		2C8B29C081349210253D07C5 /* Data */ = {
@@ -133,26 +167,15 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		F60EF6DB99541D91CD464E6A /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				7C3FEF44A87320E8BF6DCED8 /* LanguagePickerRow.swift */,
-				C401900B7657B9FC99A566F2 /* LanguagePickerSheet.swift */,
-				F6216CC6244FA58243B78BFE /* LanguageEditorSheet.swift */,
-				6D3F90F95140F459B3C6CADC /* TargetLanguageSection.swift */,
-				84A39E5A81FF662645D19DE7 /* AddLanguageSection.swift */,
-				EEEC39047EC375458C882E6E /* UsageSummarySection.swift */,
-				3E4AD8638B9BD8259B993679 /* ApiKeySection.swift */,
-				B30EF1BDA8BEF2D517686DC8 /* ModelSection.swift */,
-				25EC2B34EA0E05C8FA2EABC4 /* InstructionsSection.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
 		379EB8CE978A9C6E29E1D9D2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				CEC685ED0A51DCD05D82CCA3 /* ApiKeyWarningBanner.swift */,
+				4B50DD3A475DB418106C0680 /* FlagIcon.swift */,
+				3E033CFDD2281FE5BA2B89DC /* FlowLayout.swift */,
+				343741F83AB235DF8D250CCB /* GenericComponents.swift */,
+				46A052A7D3731D59EE886BFD /* MainTranslateButton.swift */,
+				6F3EAC5186266A0E0460A5FA /* SwissComponents.swift */,
 				D7548D9A54B713824CF80697 /* TranslateInputCard.swift */,
 				19E37F9EB56230A2EA32385C /* TranslatingStatusCard.swift */,
 				BCECB7E0BF9084A0027A37F8 /* TranslationErrorCard.swift */,
@@ -180,10 +203,26 @@
 				8A2949FF3A3930061005AAEA /* LanguageUiStrings.swift */,
 				614BB88BCACD475C8C0A2536 /* PersistenceController.swift */,
 				E60E3BF069E9A0FB50FB2CD8 /* SwissCantonRegistry.swift */,
-				AE04196DEED3CBE781B32498 /* UsageCostCalculator.swift */,
-				08AD3AC6DCA0EB50B1F0B83C /* UsageRepository.swift */,
+				428FF89F8D79AD900A66219A /* UsageCostCalculator.swift */,
+				96E9CF1FADDF21C43BFFE27F /* UsageRepository.swift */,
 			);
 			path = Persistence;
+			sourceTree = "<group>";
+		};
+		620F07914EA96F163E44DAF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5F81693B08A5A47304D0DFC9 /* AddLanguageSection.swift */,
+				88FC0687CFED9F7884CBEC56 /* ApiKeySection.swift */,
+				C316EFFFBA211A528342E99F /* InstructionsSection.swift */,
+				0D51E1B031EABEC46CC4F8C9 /* LanguageEditorSheet.swift */,
+				E5B02A31EC260B284B0AAD12 /* LanguagePickerRow.swift */,
+				C7D3FC6E4D9560ECA0682DCF /* LanguagePickerSheet.swift */,
+				E9CC2E806DCCBC8A13CB614C /* ModelSection.swift */,
+				5E77B5E7A0760E2A35E9B6BB /* TargetLanguageSection.swift */,
+				4480BC989972F4AA8AEEDF63 /* UsageSummarySection.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		6FA21001578DFF2967C3C8CC = {
@@ -198,16 +237,19 @@
 			isa = PBXGroup;
 			children = (
 				FD7264C67D272CF3FE890A51 /* ContentView.swift */,
+				31FE80DE4989D81ED77F9310 /* GenericMainScreen.swift */,
 				07A14037EB73EAA8A312F54D /* MainTranslateView.swift */,
 				8AE70C4966D1300BBDFE0BF7 /* SettingsView.swift */,
+				E4CEF007D99CF89EBB88B823 /* SettingsViewModel.swift */,
+				FEE1B9C266E2ED0AA9ECF056 /* SettingsViewModel+Languages.swift */,
+				002448EE4D8F2C0E4CE1D400 /* SettingsViewModel+Models.swift */,
+				614AC7D1FD3BD9CE3AC52B1B /* SwissDialectMainScreen.swift */,
 				859A885446266E7AF753B8B3 /* TranslateViewModel.swift */,
 				7E9C43CCD8235623C8DD7CA0 /* TranslateViewModel+Copy.swift */,
 				CECD078B99F4AB553959C61E /* TranslateViewModel+Dictation.swift */,
-				109CA879EBA8616E8EA3179E /* SettingsViewModel.swift */,
-				F9874D8C4D4F14B0D941B064 /* SettingsViewModel+Models.swift */,
-				403F9838590677EBD57F2D23 /* SettingsViewModel+Languages.swift */,
 				379EB8CE978A9C6E29E1D9D2 /* Components */,
-				F60EF6DB99541D91CD464E6A /* Settings */,
+				620F07914EA96F163E44DAF8 /* Settings */,
+				2162498081F0177AF37B4E7C /* Theme */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -243,7 +285,7 @@
 				CCF1725987095F7881F88AD0 /* AppSettings.swift */,
 				B1065521377AFAE17E10DA5F /* KeychainError.swift */,
 				662C5CDA25B79205E7E008BA /* KeychainStore.swift */,
-				B1B7665A03EA970068F9BCB1 /* LanguageDraft.swift */,
+				8481F1D3653D174D538E536D /* LanguageDraft.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -255,6 +297,7 @@
 				9E7CFF3F1A025B22322AB367 /* RafTranslatorApp.swift */,
 				2C8B29C081349210253D07C5 /* Data */,
 				B88C679FDE9C4D6A20D6A846 /* Dictation */,
+				14B5C9D5129E26351411CAAA /* Resources */,
 				E7A291FDAB727AAC1085F59E /* Settings */,
 				782770A004ADE6D1A47BD21F /* UI */,
 			);
@@ -269,6 +312,7 @@
 			buildConfigurationList = 4D686F3BC042578130812E09 /* Build configuration list for PBXNativeTarget "RafTranslator" */;
 			buildPhases = (
 				022A952CC8EC57966A562DE7 /* Sources */,
+				544472C406082CD7F28D0FE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -315,13 +359,27 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		544472C406082CD7F28D0FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7244317DE94449671BB6CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		022A952CC8EC57966A562DE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7F6EDD873821EBE90A7DD6 /* AddLanguageSection.swift in Sources */,
+				BD0A65727D333AB368C837AB /* ApiKeySection.swift in Sources */,
 				4DF3D594A83D7E61A7179CDF /* ApiKeyWarningBanner.swift in Sources */,
 				93E04D1D486884C3C1DC52A2 /* AppSettings.swift in Sources */,
+				328093B76B6775A0736B7E79 /* AppTheme.swift in Sources */,
 				B86EF5B0EF51CDA03B4B55E8 /* CatalogSeeding.swift in Sources */,
 				D3976BD0149508D53E52D2A6 /* ContentView.swift in Sources */,
 				59EC0546BF4CF00F6D7A3108 /* DialectSeeder.swift in Sources */,
@@ -329,6 +387,8 @@
 				F2355541D7CA26A3F05C40B2 /* DictationService+Audio.swift in Sources */,
 				32B540449AC4573868AC2E18 /* DictationService+Recognizer.swift in Sources */,
 				17ECC348996360CA04FB9028 /* DictationService.swift in Sources */,
+				FD8CD75DB23D025B5B3A6964 /* FlagIcon.swift in Sources */,
+				48D643F1EBDF92FA9D64CFB3 /* FlowLayout.swift in Sources */,
 				394EE8F516CE26CCBF46C9B6 /* GeminiError.swift in Sources */,
 				FB7743825D801EC6DCB164B2 /* GeminiModelRate.swift in Sources */,
 				FBA4C3D48FA3EA4F418C3F3A /* GeminiModels.swift in Sources */,
@@ -336,16 +396,31 @@
 				E53DF7E530F3CB60D64C4121 /* GeminiService+Retry.swift in Sources */,
 				919D03ED6F3678D59AF741A0 /* GeminiService+Translation.swift in Sources */,
 				9CF2E447F9DF08A30E5A3032 /* GeminiService.swift in Sources */,
+				A9A029C68FA02BFF459FB70A /* GenericComponents.swift in Sources */,
+				25E4C4825C5F9559871CB182 /* GenericMainScreen.swift in Sources */,
+				2C4C511A42CB8A1EBE10CD38 /* InstructionsSection.swift in Sources */,
 				AEEC1DFA3E14AC011BA57F66 /* KeychainError.swift in Sources */,
 				A6E49AFCF0AD246290A6A1B1 /* KeychainStore.swift in Sources */,
 				8490FD8A54EEF87C8A5C76E3 /* LanguageDialect.swift in Sources */,
+				73DE3A0B2EE6EF61A6E1989D /* LanguageDraft.swift in Sources */,
+				4056A985B61314424166AA5D /* LanguageEditorSheet.swift in Sources */,
 				7BB5C4202A080851E7E26A78 /* LanguageGroups.swift in Sources */,
+				1C64E3024F20C8D08E594361 /* LanguagePickerRow.swift in Sources */,
+				904FB3C3BCBA6116CFDACA24 /* LanguagePickerSheet.swift in Sources */,
 				3481924B43AB4833E6EE3AB2 /* LanguageUiStrings.swift in Sources */,
+				2173B720B2AA654D0F52CFA5 /* MainTranslateButton.swift in Sources */,
 				CA7BB0E5C158F90F45EB667B /* MainTranslateView.swift in Sources */,
+				A2673A8D6AC4C55CA8C3C476 /* ModelSection.swift in Sources */,
 				DBBAB851CDF3C8ED8A70758F /* PersistenceController.swift in Sources */,
 				2A566B96372A6125CEEBB688 /* RafTranslatorApp.swift in Sources */,
 				3D5FF2EC32EF2D9C75ED39A3 /* SettingsView.swift in Sources */,
+				4A543C7D1E13195C963505C1 /* SettingsViewModel+Languages.swift in Sources */,
+				4A23FB03B47B8D0DC2BDFAAB /* SettingsViewModel+Models.swift in Sources */,
+				35C02C8362BB9C3362076B0B /* SettingsViewModel.swift in Sources */,
 				84F992BE656A2D0C96755235 /* SwissCantonRegistry.swift in Sources */,
+				B5EB96E152752BBA18DA2201 /* SwissComponents.swift in Sources */,
+				603E6CA9EC0BB02A2D56DC85 /* SwissDialectMainScreen.swift in Sources */,
+				6D6FA4860FF7F39CF16F2F9A /* TargetLanguageSection.swift in Sources */,
 				2593D54918E7D75FDF9DB6B7 /* ThinkingConfig.swift in Sources */,
 				F268B8F4E7E62079C42E5CFA /* TranslateInputCard.swift in Sources */,
 				BD19CE72EA5B8BFC72B64763 /* TranslateViewModel+Copy.swift in Sources */,
@@ -355,21 +430,9 @@
 				7B4C67B691DA47ABF4D55B4A /* TranslationErrorCard.swift in Sources */,
 				AB1F2A882BED9E8D4F017516 /* TranslationResultCard.swift in Sources */,
 				265A1643FEDA8002745F9A31 /* TranslationUsageRecord.swift in Sources */,
-				0B8B5A9F1506F537BC21D3C0 /* UsageCostCalculator.swift in Sources */,
-				3CE5F2D27911A6CFC8164136 /* UsageRepository.swift in Sources */,
-				0C8D2D3C69FAE4D18070119D /* LanguageDraft.swift in Sources */,
-				426CBED13A848D53C49D6841 /* SettingsViewModel.swift in Sources */,
-				A813848B0BE9118EAB0AE519 /* SettingsViewModel+Models.swift in Sources */,
-				332C1967913B99757191DE63 /* SettingsViewModel+Languages.swift in Sources */,
-				B099EAB7D43BCEC9F984789D /* LanguagePickerRow.swift in Sources */,
-				347A33AF76E66217A12F150F /* LanguagePickerSheet.swift in Sources */,
-				E5C9B41F536432CA89563DCA /* LanguageEditorSheet.swift in Sources */,
-				9FF6431C46A0B218F7C98D73 /* TargetLanguageSection.swift in Sources */,
-				BC45AC3B344B222F39909BE2 /* AddLanguageSection.swift in Sources */,
-				7801D0D3E43FFCB5EEF46772 /* UsageSummarySection.swift in Sources */,
-				0DC0B6519D66580FCAC5DFC9 /* ApiKeySection.swift in Sources */,
-				FAF2EE686758006AA9AEEB9A /* ModelSection.swift in Sources */,
-				3237B92FDEC6B34E8813F325 /* InstructionsSection.swift in Sources */,
+				282AE20C5F758A7B41580FFE /* UsageCostCalculator.swift in Sources */,
+				D4DA16D440220A59707975A7 /* UsageRepository.swift in Sources */,
+				A080AE8124E3FDA0C7169ECC /* UsageSummarySection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

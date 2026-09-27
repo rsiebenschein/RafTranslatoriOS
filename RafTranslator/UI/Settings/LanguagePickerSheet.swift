@@ -39,8 +39,13 @@ struct LanguagePickerSheet: View {
         case .single(let dialect):
             languageRow(dialect)
         case .group(let info, let children):
-            Section(info.labelEnglish) {
+            Section {
                 ForEach(children, id: \.name) { languageRow($0) }
+            } header: {
+                HStack(spacing: 6) {
+                    FlagIcon(flatAssetUri: DialectSeeder.flatAssetUri(forAssetCode: info.assetCode), flagEmoji: info.flagEmoji, size: 18)
+                    Text(info.labelEnglish)
+                }
             }
         }
     }
@@ -71,7 +76,7 @@ private struct LanguagePickerListRow: View {
     var body: some View {
         Button(action: onSelect) {
             HStack(spacing: 12) {
-                Text(dialect.flagEmoji).font(.title3)
+                FlagIcon(flatAssetUri: dialect.flatAssetUri, flagEmoji: dialect.flagEmoji, size: 28)
                 VStack(alignment: .leading, spacing: 2) {
                     Text(dialect.name).foregroundStyle(.primary)
                     if dialect.isCustom {

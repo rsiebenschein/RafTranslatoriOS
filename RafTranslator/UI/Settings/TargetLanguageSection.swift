@@ -7,12 +7,17 @@ struct TargetLanguageSection: View {
 
     @State private var isPickerOpen = false
 
+    private var selectedDialect: LanguageDialect? {
+        allLanguages.first { $0.name == viewModel.draft.targetLanguage }
+    }
+
     var body: some View {
         Section {
             Button {
                 isPickerOpen = true
             } label: {
                 HStack {
+                    FlagIcon(flatAssetUri: selectedDialect?.flatAssetUri, flagEmoji: selectedDialect?.flagEmoji ?? "🏳️", size: 26)
                     VStack(alignment: .leading, spacing: 2) {
                         Text("Target Language / Dialect").font(.caption).foregroundStyle(.secondary)
                         Text(viewModel.draft.targetLanguage).foregroundStyle(.primary)

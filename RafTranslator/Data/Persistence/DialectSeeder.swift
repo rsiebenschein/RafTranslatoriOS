@@ -22,15 +22,15 @@ enum DialectSeeder {
         let searchKeywords: [String]
     }
 
+    /// Name of the flat (rectangular) SVG imageset in Assets.xcassets — see
+    /// scripts/fetch_flag_assets.py, which generates one `flag-<assetCode>` imageset per code.
     static func flatAssetUri(forAssetCode assetCode: String) -> String {
-        "flags/flag/\(assetCode).svg"
+        "flag-\(assetCode)"
     }
 
-    /// Bump whenever the bundled round asset artwork changes, to bust any cached bubble icon.
-    private static let roundAssetVersion = "v7"
-
+    /// Name of the round SVG imageset in Assets.xcassets — see scripts/fetch_flag_assets.py.
     static func roundAssetUri(forAssetCode assetCode: String) -> String {
-        "flags/round/\(assetCode).svg#\(roundAssetVersion)"
+        "round-\(assetCode)"
     }
 
     /// Geneva, Vaud, Neuchâtel, and Jura are French-speaking and Ticino is Italian-speaking —
@@ -283,7 +283,8 @@ enum DialectSeeder {
         row.searchKeywords = seed.searchKeywords.joined(separator: ",")
         row.flatAssetUri = flatAssetUri(forAssetCode: seed.assetCode)
         row.customIconUrl = roundAssetUri(forAssetCode: seed.assetCode)
-        // The asset changed shape - drop any stale cached bubble bitmap so it re-caches.
+        // Only meaningful for a custom row's downloaded icon cache, which this row isn't —
+        // cleared defensively in case it's ever set by a future migration.
         row.localImagePath = nil
     }
 

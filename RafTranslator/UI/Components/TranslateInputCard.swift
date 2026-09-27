@@ -3,12 +3,22 @@ import SwiftUI
 /// The text-entry card: dictate button, multiline text field, and a clear button.
 struct TranslateInputCard: View {
     @Bindable var viewModel: TranslateViewModel
+    var activeDialect: LanguageDialect?
+    var clipFlagToCircle: Bool = true
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Text("Translate into \(viewModel.settings.targetLanguage):")
-                    .font(.subheadline.bold())
+                HStack(spacing: 8) {
+                    FlagIcon(
+                        flatAssetUri: activeDialect?.flatAssetUri,
+                        flagEmoji: activeDialect?.flagEmoji ?? "🌍",
+                        size: 26,
+                        clipToCircle: clipFlagToCircle
+                    )
+                    Text("Translate into \(viewModel.settings.targetLanguage):")
+                        .font(.subheadline.bold())
+                }
                 Spacer()
                 DictateButton(viewModel: viewModel)
             }
